@@ -1,0 +1,10 @@
+node_modules
+.serverless
+test/__pycache__
+test/bin
+test/include
+test/lib
+test/lib64
+test/pyvenv.cfg
+.idea/
+.dynamodb

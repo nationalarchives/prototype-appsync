@@ -1,0 +1,8 @@
+type Mutation {
+	createCollection(
+		name: String!,
+		copyright: String!,
+		closure: String!,
+		legalStatus: String!
+	): TdrCollection
+}
