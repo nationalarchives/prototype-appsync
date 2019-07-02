@@ -8,3 +8,5 @@ test/lib64
 test/pyvenv.cfg
 .idea/
 .dynamodb
+.vscode
+schema.graphql

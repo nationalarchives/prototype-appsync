@@ -10,6 +10,6 @@
     "serverless-appsync-plugin": "^1.1.2"
   },
   "scripts": {
-    "offline": "sls appsync-offline start"
+    "offline": "rm -f schema.graphql && cat schemas/* > schema.graphql && sls appsync-offline start"
   }
 }
