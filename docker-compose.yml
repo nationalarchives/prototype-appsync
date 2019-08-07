@@ -1,0 +1,13 @@
+version: "3"
+services:
+  appsync:
+    build: .
+    image: nationalarchives/prototype-appsync
+    container_name: appsync
+    ports:
+      - "62222:62222"
+  dynamodb:
+    image: amazon/dynamodb-local
+
+
+

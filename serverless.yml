@@ -20,11 +20,10 @@ custom:
     port: 62222
     dynamodb:
       client:
+        endpoint: http://dynamodb:8000
         region: eu-west-2
         accessKeyId: test
         secretAccessKey: test
-      server:
-        port: 8000
   accountId: 247222723249
   appSync:
     name:  test-deploy
